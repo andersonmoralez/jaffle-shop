@@ -1,7 +1,9 @@
+version: 2
+
 sources:
-  - name: jaffle-shop
+  - name: jaffle_shop
     database: raw
-    schema: jaffle-shop
     tables:
       - name: customers
+      - name: customers_test
       - name: orders
