@@ -7,18 +7,19 @@ sources:
     description: Um clone de um banco de dados de aplicação Postgres.
     tables:
       - name: customers
-        description: Raw customer data
+        description: Dados brutos de clientes
         columns:
           - name: id
-            description: Pirmary key for customer data
+            description: Chave primária para dados de clientes
             data_tests:
               - unique
               - not_null
       - name: customers_test
       - name: orders
-        description: Raw orders data.
+        description: Dados brutos de pedidos
         columns:
           - name: id
+            description: 
             data_tests:
               - unique
               - not_null
