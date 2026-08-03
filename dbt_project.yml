@@ -21,4 +21,5 @@ clean-targets:
 models:
   jaffle_shop:
     staging:
+      +database: ANALYTICS
       +materialized: view
